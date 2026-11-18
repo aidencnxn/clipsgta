@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conditions d'utilisation de ClipsGTA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Page juridique sobre : une colonne de lecture, deux sections ancrées */
+:root {
+  --bg: #f6f6f8; --surface: #ffffff; --fg: #1b1c22; --muted: #5d6070; --line: #dcdde4; --accent: #c2531a;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --text: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121318; --surface: #1a1c22; --fg: #e8e9ee; --muted: #9a9cab; --line: #2c2e37; --accent: #f08a4b; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121318; --surface: #1a1c22; --fg: #e8e9ee; --muted: #9a9cab; --line: #2c2e37; --accent: #f08a4b; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--text); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+header { display: flex; flex-direction: column; gap: 8px; }
+.marque { font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 6vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 15px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 28px clamp(18px, 4vw, 32px); scroll-margin-top: 16px; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 0 0 4px; text-wrap: balance; }
+.date { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+h3 { font-family: var(--display); font-weight: 500; font-size: 17px; margin: 24px 0 6px; }
+p, ul { margin: 0 0 10px; }
+ul { padding-left: 20px; }
+li { margin-bottom: 4px; }
+footer { color: var(--muted); font-size: 14px; }
+
+body { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="marque" href="../" style="text-decoration:none">ClipsGTA</a>
+    <nav>
+      <a href="../confidentialite/">Politique de confidentialité</a>
+      <a href="../conditions/">Conditions d'utilisation</a>
+    </nav>
+  </header>
+<section id="conditions">
+    <h2>Conditions d'utilisation</h2>
+    <p class="date">Dernière mise à jour : 18 novembre 2026</p>
+
+    <h3>Objet</h3>
+    <p>ClipsGTA est un outil privé qui permet à l'éditeur de la chaîne « L'Empire GTA » de publier des extraits de vidéos de jeu GTA sur ses propres comptes YouTube et TikTok. Il n'est pas ouvert au public.</p>
+
+    <h3>Contenus publiés</h3>
+    <p>Les extraits publiés proviennent de créateurs qui ont donné leur accord. Chaque vidéo crédite le créateur d'origine et renvoie vers sa chaîne. Les droits sur les contenus d'origine restent la propriété de leurs auteurs.</p>
+
+    <h3>Retrait</h3>
+    <p>Un créateur peut demander à tout moment le retrait d'un extrait le concernant, ou l'arrêt de toute publication de ses contenus.</p>
+
+    <h3>Services tiers</h3>
+    <p>La publication passe par les API officielles de YouTube et TikTok et respecte leurs conditions d'utilisation.</p>
+
+    <h3>Responsabilité</h3>
+    <p>L'outil est fourni tel quel, pour l'usage exclusif de son éditeur.</p>
+
+    <h3>Contact</h3>
+    <p>Par message à l'éditeur, depuis la chaîne <a href="https://www.youtube.com/@EmpireGTAFR" rel="noopener">L'Empire GTA</a>.</p>
+  </section>
+  <footer>ClipsGTA · outil privé de la chaîne L'Empire GTA</footer>
+</main>
+</body>
+</html>

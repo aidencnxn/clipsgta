@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité de ClipsGTA</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Page juridique sobre : une colonne de lecture, deux sections ancrées */
+:root {
+  --bg: #f6f6f8; --surface: #ffffff; --fg: #1b1c22; --muted: #5d6070; --line: #dcdde4; --accent: #c2531a;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --text: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121318; --surface: #1a1c22; --fg: #e8e9ee; --muted: #9a9cab; --line: #2c2e37; --accent: #f08a4b; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121318; --surface: #1a1c22; --fg: #e8e9ee; --muted: #9a9cab; --line: #2c2e37; --accent: #f08a4b; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--text); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+header { display: flex; flex-direction: column; gap: 8px; }
+.marque { font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(28px, 6vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 15px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 28px clamp(18px, 4vw, 32px); scroll-margin-top: 16px; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 24px; margin: 0 0 4px; text-wrap: balance; }
+.date { color: var(--muted); font-size: 14px; margin: 0 0 20px; }
+h3 { font-family: var(--display); font-weight: 500; font-size: 17px; margin: 24px 0 6px; }
+p, ul { margin: 0 0 10px; }
+ul { padding-left: 20px; }
+li { margin-bottom: 4px; }
+footer { color: var(--muted); font-size: 14px; }
+
+body { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="marque" href="../" style="text-decoration:none">ClipsGTA</a>
+    <nav>
+      <a href="../confidentialite/">Politique de confidentialité</a>
+      <a href="../conditions/">Conditions d'utilisation</a>
+    </nav>
+  </header>
+<section id="confidentialite">
+    <h2>Politique de confidentialité</h2>
+    <p class="date">Dernière mise à jour : 18 novembre 2026</p>
+    <p>ClipsGTA est un outil privé utilisé par l'éditeur de la chaîne « L'Empire GTA » pour publier, sur ses propres comptes YouTube et TikTok, des extraits de vidéos de jeu GTA réalisés avec l'accord des créateurs concernés.</p>
+
+    <h3>Données collectées</h3>
+    <p>ClipsGTA n'est utilisé que par son éditeur. Il ne collecte aucune donnée personnelle sur les visiteurs ou les spectateurs. Les seules données traitées sont :</p>
+    <ul>
+      <li>les jetons d'accès aux comptes YouTube et TikTok de l'éditeur, nécessaires à la publication des vidéos ;</li>
+      <li>des informations publiques sur les clips (titre, chaîne d'origine, nombre de vues), obtenues par les API officielles de Twitch et YouTube.</li>
+    </ul>
+
+    <h3>Utilisation</h3>
+    <p>Ces données servent uniquement à sélectionner, monter et publier des vidéos sur les comptes de l'éditeur. Elles ne sont ni vendues, ni partagées, ni utilisées à des fins publicitaires.</p>
+
+    <h3>Conservation</h3>
+    <p>Les jetons d'accès sont conservés sur le serveur de l'éditeur tant que l'outil est utilisé. Ils peuvent être révoqués à tout moment depuis les paramètres du compte Google (myaccount.google.com/permissions) ou TikTok.</p>
+
+    <h3>Services tiers</h3>
+    <p>ClipsGTA utilise les API de YouTube (Google), TikTok et Twitch, dont l'usage est soumis à leurs propres règles :</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy" rel="noopener">Règles de confidentialité de Google</a></li>
+      <li><a href="https://www.youtube.com/t/terms" rel="noopener">Conditions d'utilisation de YouTube</a></li>
+      <li><a href="https://www.tiktok.com/legal/privacy-policy" rel="noopener">Politique de confidentialité de TikTok</a></li>
+    </ul>
+
+    <h3>Créateurs</h3>
+    <p>Tout créateur dont un extrait a été publié peut en demander le retrait. Le retrait est effectué dans les plus brefs délais.</p>
+
+    <h3>Contact</h3>
+    <p>Par message à l'éditeur, depuis la chaîne <a href="https://www.youtube.com/@EmpireGTAFR" rel="noopener">L'Empire GTA</a>.</p>
+  </section>
+  <footer>ClipsGTA · outil privé de la chaîne L'Empire GTA</footer>
+</main>
+</body>
+</html>
